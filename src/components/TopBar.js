@@ -4,7 +4,7 @@ const TopBar = () => {
       <p>
         The source code for this project is{' '}
         <a
-          href="https://github.com/Ibaslogic/nextjs-mdx-blog-rss"
+          href="https://github.com/Ibaslogic/react-audio-player"
           target="_blank"
           rel="noopener noreferrer"
           title="github"
