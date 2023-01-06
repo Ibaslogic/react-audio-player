@@ -1,6 +1,6 @@
 # A guide to building audio players for React apps
 
-## [Live project here](https://react-audio-player-tau.vercel.app/)
+## [Live project here](https://ibaslogic.github.io/react-audio-player/)
 
 Read the step-by-step guide here: ...
 
