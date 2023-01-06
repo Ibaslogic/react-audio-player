@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/Ibaslogic/react-audio-player/static/css/main.21770375.css",
-    "main.js": "/Ibaslogic/react-audio-player/static/js/main.c6db4636.js",
-    "static/media/We_Are_The_World.mp3": "/Ibaslogic/react-audio-player/static/media/We_Are_The_World.06d1409fae37abceb52e.mp3",
-    "static/media/a_beautiful_day.mp3": "/Ibaslogic/react-audio-player/static/media/a_beautiful_day.fc92d28db9f740c923f8.mp3",
-    "static/media/forest-lullaby-110624.mp3": "/Ibaslogic/react-audio-player/static/media/forest-lullaby-110624.983891a002249e62f1fd.mp3",
-    "static/media/cinematic-time-lapse-115672.mp3": "/Ibaslogic/react-audio-player/static/media/cinematic-time-lapse-115672.7a678d77ae394ea43b97.mp3",
-    "static/media/dbang-world.mp3": "/Ibaslogic/react-audio-player/static/media/dbang-world.4d32efdaf1cdcf5f1b16.mp3",
-    "static/media/the-podcast-intro-111863.mp3": "/Ibaslogic/react-audio-player/static/media/the-podcast-intro-111863.6dfe0442b9fc5c41f15f.mp3",
-    "static/media/dbanj.png": "/Ibaslogic/react-audio-player/static/media/dbanj.09c8453b79a90e6fdf56.png",
-    "static/media/jackson.jpeg": "/Ibaslogic/react-audio-player/static/media/jackson.44770b132f82a66fb526.jpeg",
-    "index.html": "/Ibaslogic/react-audio-player/index.html",
-    "main.21770375.css.map": "/Ibaslogic/react-audio-player/static/css/main.21770375.css.map",
-    "main.c6db4636.js.map": "/Ibaslogic/react-audio-player/static/js/main.c6db4636.js.map"
+    "main.css": "/react-audio-player/static/css/main.21770375.css",
+    "main.js": "/react-audio-player/static/js/main.c528c7d3.js",
+    "static/media/We_Are_The_World.mp3": "/react-audio-player/static/media/We_Are_The_World.06d1409fae37abceb52e.mp3",
+    "static/media/a_beautiful_day.mp3": "/react-audio-player/static/media/a_beautiful_day.fc92d28db9f740c923f8.mp3",
+    "static/media/forest-lullaby-110624.mp3": "/react-audio-player/static/media/forest-lullaby-110624.983891a002249e62f1fd.mp3",
+    "static/media/cinematic-time-lapse-115672.mp3": "/react-audio-player/static/media/cinematic-time-lapse-115672.7a678d77ae394ea43b97.mp3",
+    "static/media/dbang-world.mp3": "/react-audio-player/static/media/dbang-world.4d32efdaf1cdcf5f1b16.mp3",
+    "static/media/the-podcast-intro-111863.mp3": "/react-audio-player/static/media/the-podcast-intro-111863.6dfe0442b9fc5c41f15f.mp3",
+    "static/media/dbanj.png": "/react-audio-player/static/media/dbanj.09c8453b79a90e6fdf56.png",
+    "static/media/jackson.jpeg": "/react-audio-player/static/media/jackson.44770b132f82a66fb526.jpeg",
+    "index.html": "/react-audio-player/index.html",
+    "main.21770375.css.map": "/react-audio-player/static/css/main.21770375.css.map",
+    "main.c528c7d3.js.map": "/react-audio-player/static/js/main.c528c7d3.js.map"
   },
   "entrypoints": [
     "static/css/main.21770375.css",
-    "static/js/main.c6db4636.js"
+    "static/js/main.c528c7d3.js"
   ]
 }
