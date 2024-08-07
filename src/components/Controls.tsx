@@ -100,7 +100,7 @@ export const Controls = () => {
     }
   };
 
-  const handlePrevious = () => {
+  const handlePrevious = useCallback(() => {
     setTrackIndex((prev) => {
       const newIndex = isShuffle
         ? Math.floor(Math.random() * tracks.length)
@@ -110,9 +110,9 @@ export const Controls = () => {
       setCurrentTrack(tracks[newIndex]);
       return newIndex;
     });
-  };
+  }, [isShuffle, setCurrentTrack, setTrackIndex]);
 
-  const handleNext = () => {
+  const handleNext = useCallback(() => {
     setTrackIndex((prev) => {
       const newIndex = isShuffle
         ? Math.floor(Math.random() * tracks.length)
@@ -122,7 +122,27 @@ export const Controls = () => {
       setCurrentTrack(tracks[newIndex]);
       return newIndex;
     });
-  };
+  }, [isShuffle, setCurrentTrack, setTrackIndex]);
+
+  useEffect(() => {
+    const currentAudioRef = audioRef.current;
+
+    if (currentAudioRef) {
+      currentAudioRef.onended = () => {
+        if (isRepeat) {
+          currentAudioRef.play();
+        } else {
+          handleNext(); // This function should handle both shuffle and non-shuffle scenarios
+        }
+      };
+    }
+
+    return () => {
+      if (currentAudioRef) {
+        currentAudioRef.onended = null;
+      }
+    };
+  }, [isRepeat, handleNext, audioRef]);
 
   return (
     <div className="flex gap-4 items-center">
